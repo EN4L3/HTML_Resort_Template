@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  
+}
+
+body{margin-top:50px;}
+
+
+.navbar-brand{font-size:24px; font-weight:bold;}
+.navbar-right a{font-size:16px; border-color:transparent;}
+
+.navbar-nav li a:hover{font-weight:bold; color:#000;}
+
+.banner{
+	background-image: url(../img/bch1.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:80vh;
+	background-position:center;
+	overflow:hidden;
+	
+	}
+	
+.content{text-align:center; padding:150px 0 50px;position:relative}
+.content-inner{position:relative;max-width:500px;margin:0 auto}
+
+.content-inner{position:relative;max-width:500px;margin:0 auto}
+.content-inner h1{margin-top:10; margin-bottom:30px; font-size:30px; color:#fff;}
+.content .content-inner {margin-bottom:25px}
+.content-inner p{color:#fff; font-size:14px;}
+
+
+
+.features-section {
+    height:auto;
+    padding-top: 50px;
+	padding-bottom:10px;
+    text-align: center;
+    background: #fff;
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	}
+	
+.about-section{ background-color:#000; text-align: center; font-size:14px; color:#fff;}	
+.about-section h1{color:#fff;}
+.left img{ width:710px; height:280px; padding:10px; }
+
+.text-center{padding-bottom:50px; color:#000;}
+.text-center:hover{font-weight:bolder;}
+.text-center:after{display:block;}
+
+.col-md-4{padding-top:40px;}
+
+.right{margin-top:20px;}
+
+footer{text-align:center; background-color:inherit;}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
